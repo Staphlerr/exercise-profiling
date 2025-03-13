@@ -79,10 +79,10 @@ Student Number: 2306203526
 | Max Response Time | **50,772 ms**       | **1,479 ms**       | ✅ **97% faster** |
 
 **Before Optimization:**  
-![CLI Test Before - all-student](screenshots/cli-test all-student.jpg)
+![CLI Test Before - all-student](screenshots/cli-test%20all-student.jpg)
 
 **After Optimization:**  
-![CLI Test After - all-student](screenshots/cli-test all-student-after.jpg)
+![CLI Test After - all-student](screenshots/cli-test%20all-student-after.jpg)
 
 **Optimization Applied:**
 - Replaced inefficient loop-based fetching with **JOIN FETCH**.
@@ -99,10 +99,10 @@ Student Number: 2306203526
 | Max Response Time | **1,537 ms**        | **358 ms**         | ✅ **77% faster** |
 
 **Before Optimization:**  
-![CLI Test Before - all-student-name](screenshots/cli-test all-student-name.jpg)
+![CLI Test Before - all-student-name](screenshots/cli-test%20all-student-name.jpg)
 
 **After Optimization:**  
-![CLI Test After - all-student-name](screenshots/cli-test all-student-name-after.jpg)
+![CLI Test After - all-student-name](screenshots/cli-test%20all-student-name-after.jpg)
 
 **Optimization Applied:**
 - Used stream/collectors instead of string manipulation by manual
@@ -119,10 +119,10 @@ Student Number: 2306203526
 | Max Response Time | **68 ms** | **49 ms**          | ✅ **28% faster** |
 
 **Before Optimization:**  
-![CLI Test Before - highest-gpa](screenshots/cli-test highest-gpa.jpg)
+![CLI Test Before - highest-gpa](screenshots/cli-test%20highest-gpa.jpg)
 
 **After Optimization:**  
-![CLI Test After - highest-gpa](screenshots/cli-test highest-gpa-after.jpg)
+![CLI Test After - highest-gpa](screenshots/cli-test%20highest-gpa-after.jpg)
 
 **Optimization Applied:**
 - Used `ORDER BY GPA DESC LIMIT 1` for fast retrieval.
